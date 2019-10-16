@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, intial-scale = 1">
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>Radha Patel</title>
+        <link rel = "icon" type = "image/png" href = "logo-alone.png">
+
+        <link rel = "stylesheet" type = "text/css" href = "invaders.css">
+
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+        <nav class = "navbar navbar-expand-md">
+            <a class = "navbar-left" href = "Homepage.html">
+                <img src = "logo-no-text.png" class = "logo-img" alt = "Radha Patel logo">
+                <span class = "logo-text"><strong>Radha Patel</strong></span>
+            </a>
+            <button class = "navbar-toggler navbar-dark" type = "button" data-toggle = "collapse" data-target = "#main-navigaton">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "collapse navbar-collapse" id = "main-navigation">
+                <ul class = "navbar-nav">
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "index.html">Home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <div class = "dropdown">
+                            <a class = "nav-link" href = "projects.html">
+                                <button class = "dropbtn" href = "projects.html">Projects
+                                    <i class = "fa fa-caret-down"></i>
+                                </button>
+                            </a>
+                            <div class = "dropdown-content">
+                                <div class = "nav-item active">
+                                    <a class = "nav-link" href = "invaders.html">Alien Invaders</a>
+                                    <span class = "sr-only">(current)</span>
+                                </div>
+                                <a class = "nav-link" href = "maze.html">Maze Runner</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#">Resume</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "#">Blog</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href = "contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <header class = "page-header header container-fluid">
+        </header>
+
+        <h1 class = "title-invaders">Alien Invaders</h1>
+        <p class = "desc">
+            This was the final project for my CS 1110: Intro to Python course in Fall 2018.
+            It works similarly to the version you'd find anywhere on the internet.
+        </p>
+        <p class = "one-line">
+            Your screen starts with this when you first run the game:
+        </p>
+        <a>
+            <img class = "screenshots" src = "start.png" alt = "The start screen says 'Press S to start'">
+        </a>
+        <p class = "caption">
+            <br>Once 'S' has been pressed, the game begins. As you see in the picture below, you have to
+            shoot at the aliens, but the aliens will be moving across the screen and shooting at you.
+        </p>
+        <a>
+            <img class = "screenshots" src = "AfterStart.png" alt = "What a game looks like">
+        </a>
+        <p class = "caption">
+            <br>You will move your spaceship left and right to try to destroy the aliens and avoid their
+            shots. If you get shot, you lose a life and the pause screen appears.
+        </p>
+        <a>
+            <img class = "screenshots" src = "Shot.png" alt = "Pause screen after getting shot">
+        </a>
+        <p class = "caption">
+            <br>Your score is kept track of in the top left-hand corner (destroying closer aliens gets you
+            less points than destroying aliens farther away), and the number of lives you have left
+            is displayed in the top right-hand corner. You lose the game if you lose all your lives...
+        </p>
+        <a>
+            <img class = "screenshots" src = "LoseNoLives.png" alt = "Game lost due to no lives left">
+        </a>
+        <p class = "one-line">
+            <br>or if the aliens reach the line on the bottom before you destroy all of them.
+        </p>
+        <a>
+            <img class = "screenshots" src = "LoseHitLine.png" alt = "Game lost due to aliens hitting bottom line">
+        </a>
+        <p class = "caption">
+            <br>The video below shows a playthrough of the game. The game has 4 waves, and in each
+            wave the aliens move 25% faster across the screen. The number of lives reset for each
+            wave so the game isn't too difficult. I unfortunately couldn't beat my own game, but it
+            can be done!
+        </p>
+
+        <video class = "invaders-playthrough" controls>
+            <source src = "invaders-tutorial.mp4" type = "video/mp4">
+        </video>
+
+        <div class = "linkedin">
+            <a href = "https://www.linkedin.com/in/radha-patel-881323179" target = "_blank"><i class = "fab fa-linkedin"></i></a>
+        </div>
+
+        <div class = "instagram">
+            <a href = "https://www.instagram.com/radhadpatel22/?hl=en" target = "_blank"><i class = "fab fa-instagram"></i></a>
+        </div>
+
+        <div class = "facebook">
+            <a href = "https://www.facebook.com/profile.php?id=100004242016207" target = "_blank"><i class = "fab fa-facebook-square"></i></a>
+        </div>
+
+        <div class = "twitter">
+            <a href = "https://twitter.com/radhapatel0127" target = "_blank"><i class = "fab fa-twitter"></i></a>
+        </div>
+
+    </body>
+</html>
