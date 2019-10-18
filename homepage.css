@@ -8,7 +8,6 @@ html, body {
 
 .navbar {
     background-color: #c11818;
-    overflow: hidden;
 }
 
 .logo-img {
@@ -101,51 +100,71 @@ a:hover {
   display: block;
 }
 
-.title-invaders {
-    font-family: 'Titillium Web', sans-serif;
+.wordcloud {
+    position: static;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.fa-angle-down {
+    font-size: 100px;
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    background-image: "wordcloud.png";
+}
+
+.bounce {
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(10px);
+        postion: absolute;
+    }
+}
+
+.fa-angle-down:hover {
+    color: white;
+}
+
+.container {
+    display: grid;
+    justify-content: flex-start;
+    grid-template-areas: 'school'
+                         'major'
+                         'grad-year'
+                         'hometown'
+                         'hobbies'
+                         'movie'
+                         'book'
+                         'musician'
+                         'things';
+}
+
+#about-me {
     color: red;
     font-size: 70px;
-    margin-left: 50px;
-}
-
-.desc {
     font-family: 'Titillium Web', sans-serif;
-    color: black;
-    font-size: 30px;
-    margin-left: 80px;
-    margin-right: 30px;
 }
 
-.caption {
+.about-pars {
+    position: relative;
+    font-size: 30px;
+    left: 50px;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 30px;
-    margin-left: 80px;
-    margin-right: 30px;
 }
 
-.one-line {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 30px;
-    text-align: center;
+.gray-box {
+    padding: 15px;
+    background-color: #e5e0e0;
 }
-
-.screenshots {
-    height: 50%;
-    width: 50%;
-    margin-left: 25%;
-    background-color: black;
-    padding: 2px;
-}
-
-.invaders-playthrough {
-    height: 50%;
-    width: 50%;
-    margin-left: 25%;
-    margin-bottom: 30px;
-    position: absolute;
-    cursor: pointer;
-    background-color: black;
-    padding: 2px;
+.red-box {
+    padding: 15px;
+    background-color: #ecafaf;
 }
 
 .fa-linkedin {
@@ -181,13 +200,13 @@ a:hover {
     color: black;
 }
 
-.fa-github {
+.fa-twitter {
     font-size: 70px;
     position: absolute;
     left: 58%;
     color: red;
 }
 
-.fa-github:hover {
+.fa-twitter:hover {
     color: black;
 }
