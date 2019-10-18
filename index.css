@@ -200,13 +200,13 @@ a:hover {
     color: black;
 }
 
-.fa-twitter {
+.fa-github {
     font-size: 70px;
     position: absolute;
     left: 58%;
     color: red;
 }
 
-.fa-twitter:hover {
+.fa-github:hover {
     color: black;
 }
