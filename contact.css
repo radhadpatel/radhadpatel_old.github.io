@@ -169,7 +169,7 @@ input[type = "submit"]:hover {
 }
 
 .fa-linkedin {
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 43%;
     color: red;
@@ -180,7 +180,7 @@ input[type = "submit"]:hover {
 }
 
 .fa-instagram {
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 48%;
     color: red;
@@ -191,7 +191,7 @@ input[type = "submit"]:hover {
 }
 
 .fa-facebook-square {
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 53%;
     color: red;
@@ -202,7 +202,7 @@ input[type = "submit"]:hover {
 }
 
 .fa-github {
-    font-size: 70px;
+    font-size: 60px;
     position: absolute;
     left: 58%;
     color: red;
